@@ -1,0 +1,32 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UserSecretsId>aspnet-MenuSystemWithIdentity_Core-6D15B705-F6F0-4D64-B6F5-795FA476C520</UserSecretsId>
+    <RootNamespace>MenuSystemWithIdentity_Core</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Migrations\20200213132020_Initial.cs" />
+    <Compile Remove="Migrations\20200213132020_Initial.Designer.cs" />
+    <Compile Remove="Migrations\20200213132529_CreateIdentitySchema.cs" />
+    <Compile Remove="Migrations\20200213132529_CreateIdentitySchema.Designer.cs" />
+    <Compile Remove="Migrations\20200213152127_Initial.cs" />
+    <Compile Remove="Migrations\20200213152127_Initial.Designer.cs" />
+    <Compile Remove="Migrations\20200213152445_Initial.cs" />
+    <Compile Remove="Migrations\20200213152445_Initial.Designer.cs" />
+    <Compile Remove="Migrations\20200213205919_Initial.cs" />
+    <Compile Remove="Migrations\20200213205919_Initial.Designer.cs" />
+  </ItemGroup>
+
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore" Version="3.1.1" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="3.1.1" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.UI" Version="3.1.1" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="3.1.1" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="3.1.1" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="3.1.1" />
+  </ItemGroup>
+
+</Project>
